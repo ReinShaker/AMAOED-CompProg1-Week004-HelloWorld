@@ -8,15 +8,10 @@ int main()
 //prints
 
 cout<< "Hello" << endl;
-cout<<"" << endl;
-cout<<"" << endl;
-cout<<"" << endl;
-cout<<"" << endl;
-cout<<"" << endl;
-cout<<"" << endl;
-cout<<"" << endl;
-cout<<"" << endl;
-cout<<"" << endl;
+cout<<"World." << endl;
+cout<<"World." << endl;
+cout<<"World." << endl;
+cout<<"World." << endl;
 cout<<"World." << endl;
 
 }
