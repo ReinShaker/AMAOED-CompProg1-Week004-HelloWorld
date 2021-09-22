@@ -104,3 +104,42 @@ int main()
   ;getline (std::cin, name);
   std::cout << "I live at " << name << "!\n"; 
  }
+//////////////////////////////////////////////////////////////////////////////////////
+  
+ #include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    char n;
+    float num1, num2;
+    cout << "Enter year number (1, 2, 3, 4, 5)";
+    cin >> n;
+    cout << "No. of units" << endl;
+    cin >> num2;
+
+    switch (n) {
+        case '1':
+            cout << num1 << " + " << num2 << " = " << num1 * num2;
+            break;
+        case '2':
+            cout << num1 << " - " << num2 << " = " << num1 * num2;
+            break;
+        case '3':
+            cout << num1 << " * " << num2 << " = " << num1 * num2;
+            break;
+        case '4':
+            cout << num1 << " / " << num2 << " = " << num1 * num2;
+            break;
+        case '5':
+            cout << num1 << " / " << num2 << " = " << num1 * num2;
+            break;
+        default:
+         
+            cout << "Error! The operator is not correct";
+            break;
+    }
+
+    return 0;
+}
