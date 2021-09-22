@@ -143,3 +143,41 @@ int main() {
 
     return 0;
 }
+///////////////////////////////////////////////////////////////
+  #include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    char oper;
+    float num1, num2;
+    cout << "Enter year number (1, 2, 3, 4, 5)";
+    cin >> oper;
+    cout << "No. of units" << endl;
+    cin >> num2;
+
+    switch (oper) {
+        case '1':
+            cout << 1500 << " * " << num2 << " = " << 1500 * num2;
+            break;
+        case '2':
+            cout << num1 << " - " << num2 << " = " << num1 * num2;
+            break;
+        case '3':
+            cout << num1 << " * " << num2 << " = " << num1 * num2;
+            break;
+        case '4':
+            cout << num1 << " / " << num2 << " = " << num1 * num2;
+            break;
+        case '5':
+            cout << num1 << " / " << num2 << " = " << num1 * num2;
+            break;
+        default:
+         
+            cout << "Error! The operator is not correct";
+            break;
+    }
+
+    return 0;
+}
